@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.profile{
+    width: 100%;
+    float: left;
+    color: #835454;
+    background-color:rgba(255, 211, 169, 0.795);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.wrapper_profile{
+    
+    padding:50px 80px;
+    float: left;
+    width: 100%;
+}
+.photo_name{
+    width: 80%;
+    float: right;
+    padding: 15px;
+    margin: 0 11%;
+    background-color: rgb(236, 200, 120);
+    border-radius: 100px;
+}
+.photo_name img{
+    height: 160px;
+    width: 160px;
+    border-radius: 100%;
+    float: left;
+}
+.photo_name h1{
+    color: #000000;
+    padding: 60px 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    float: left;
+}
+.detail_profile{
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.detail_profile h3{
+    float: center;
+    text-align: center;
+    margin: 10px;
+    width: 100%;  
+}
+.detail_profile p{
+    float: center;
+    text-align: center;
+    margin: 10px;
+    width: 100%;
+}
+a.tbl-green {
+    padding: 12px 8px 12px 28px;
+    color: #1f5d97;
+    cursor: pointer;
+    font-weight: bold;
+}
+.hobbies{
+    width: 100%;
+    background-color: rgba(255, 211, 169, 0.795);
+    margin-top: 5px;
+    float: left;
+}
+
+.hobbies h3{
+    color: #835454;
+    text-align: center;
+    background-color: rgb(236, 200, 120);
+    padding:  20px;
+    margin: 0;
+}
+.flex_box{
+    display: flex;
+}
+.flex_box li{
+    color: #835454;
+    flex: auto;
+    list-style: none;
+    padding: 30px;
+}
+.flex_box img{
+    width: 100%;
+    padding: 10%;
+    border-radius: 5%;
+    background-color: rgb(236, 200, 120);
+}
+.flex_box h4{
+    text-align: center;
+    color: #835454;
+}
+.skills_experience{
+    width: 100%;
+    background-color: rgba(255, 211, 169, 0.795);
+    margin-top: 5px;
+    float: left;
+}
+.skills{
+    float: left;
+    width: 50%;
+    border-right: rgb(236, 200, 120);
+    border-style: none solid none none;
+    padding: 20px;
+}
+.pendidikan{
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+
+.skill{
+    float: left;
+}
+.skill img{
+    float: right;
+    width: 50px;
+    vertical-align: middle;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.skill_desc{
+    float: right;
+    width: 70%;
+}
+.skills h3{
+    color: #835454;
+    float: right;
+    width:100%;
+    text-align: right;
+    padding: 20px 0px 20px 10px;
+    margin: 0px;
+}
+.skill_desc h4{
+    color: #835454;
+    float: right;
+    text-align: right;
+    margin: 10px;
+    width: 60%;
+}
+.skill_desc p{
+    color: #835454;
+    float: right;
+    text-align: right;
+    margin: 0;
+}
+.pendidikan h3{
+    color: #835454;
+    float: left;
+    width:100%;
+    text-align: left;
+    padding: 20px 0px 20px 10px;
+    margin: 0px;
+}
+.pendidikan h4{
+    color: #835454;
+    float: left;
+    text-align: left;
+    margin: 10px;
+    width: 100%;
+}
+.pendidikan p{
+    color: #835454;
+    float: left;
+    text-align: left;
+    margin: 10px;
+    width: 100%;
+}
+.footer{
+    background: rgb(236, 200, 120);
+    background-position-y: center;
+    height: 120px;
+    float: left;
+    width: 100%;
+    padding: 20px 30px;
+    color: rgb(0, 0, 0);
+    margin-top: 5px;
+}
+
+.listfooter ul{
+    float: right;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    align-items: center;
+}
+.listfooter li{
+    height: 24px;
+    list-style: none;
+    margin: 5px;
+}
+.footer h2{
+    float: left;
+}
+.footer a{
+    float: left;
+    color: darkblue;
+    text-decoration: none;
+
+}
+.footer img{
+    float: left;
+    margin-right: 5px;
+
+}
