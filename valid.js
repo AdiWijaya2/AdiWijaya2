@@ -2,7 +2,7 @@
 function validate(){
 var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
-if ( username == "Adi Wijaya" && password == "nayotama1234"){
+if ( username == "Adi" && password == "123"){
 alert ("Login successfully");
 window.location.href = "Dashboard.html"; // Menuju halaman berikutnya
 return false;
